@@ -29,9 +29,9 @@ export default function Home() {
       <section className="py-12 px-8 bg-black text-white">
         <h3 className="text-2xl font-bold mb-6 text-yellow-500">Our Services</h3>
         <ul className="space-y-4">
-          <li>🛋️ Custom Furniture Design</li>
-          <li>💼 Office Interiors</li>
-          <li>🛠️ Repairs & Restorations</li>
+          <li> Custom Furniture Design</li>
+          <li> Office Interiors</li>
+          <li> Repairs & Restorations</li>
         </ul>
       </section>
 
@@ -39,16 +39,16 @@ export default function Home() {
       <section className="py-12 px-8 bg-gray-800 text-white">
         <h3 className="text-2xl font-bold mb-6 text-yellow-500">Why Choose Us?</h3>
         <ul className="space-y-4">
-          <li>🔨 Signature Craftsmanship – Handcrafted with precision & care</li>
-          <li>💎 Unique Designs – Furniture tailored to your style</li>
-          <li>🛡️ Premium Quality – Elegant, durable & timeless</li>
+          <li> Signature Craftsmanship – Handcrafted with precision & care</li>
+          <li> Unique Designs – Furniture tailored to your style</li>
+          <li> Premium Quality – Elegant, durable & timeless</li>
         </ul>
       </section>
 
       {/* Contact */}
       <footer className="py-12 px-8 bg-black text-center text-white">
-        <p className="text-lg mb-2">📞 0815 407 3174 | 0807 263 5232</p>
-        <p className="mb-2">📍 Victoria Island, Lagos</p>
+        <p className="text-lg mb-2"> 0815 407 3174 | 0807 263 5232</p>
+        <p className="mb-2"> Victoria Island, Lagos</p>
         <p className="text-yellow-400">Book a consultation today & bring your vision to life.</p>
       </footer>
     </div>
