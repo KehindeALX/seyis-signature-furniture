@@ -1,10 +1,17 @@
-export default function Home() 
 import Image from "next/image";
-{
+
+export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-black text-gold font-sans">
       {/* Header */}
       <header className="py-8 text-center">
+        <Image 
+          src="/logo.png" 
+          alt="Seyi's Signature Furniture Logo" 
+          width={120} 
+          height={120} 
+          className="mx-auto mb-4"
+        />
         <h1 className="text-4xl font-bold text-yellow-500">Seyi's Signature Furniture</h1>
         <p className="text-lg italic text-yellow-400">
           Distinct Designs. Crafted to Perfection.
@@ -44,33 +51,6 @@ import Image from "next/image";
         <p className="mb-2">📍 Victoria Island, Lagos</p>
         <p className="text-yellow-400">Book a consultation today & bring your vision to life.</p>
       </footer>
-    </div>
-  );
-}
- {
-  return (
-    <div className="flex flex-col min-h-screen bg-black text-gold font-sans">
-      {/* Header */}
-      <header className="py-8 text-center">
-        <Image 
-          src="/logo.png" 
-          alt="Seyi's Signature Furniture Logo" 
-          width={120} 
-          height={120} 
-          className="mx-auto mb-4"
-        />
-        <h1 className="text-4xl font-bold text-yellow-500">Seyi's Signature Furniture</h1>
-        <p className="text-lg italic text-yellow-400">
-          Distinct Designs. Crafted to Perfection.
-        </p>
-      </header>
-     <Image 
-  src="/logo.png" 
-  alt="Seyi's Signature Furniture Logo" 
-  width={120} 
-  height={120} 
-  className="mx-auto mb-4"
-/>
     </div>
   );
 }
