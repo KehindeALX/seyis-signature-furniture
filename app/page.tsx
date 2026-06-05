@@ -45,3 +45,25 @@ export default function Home() {
     </div>
   );
 }
+import Image from "next/image";
+ {
+  return (
+    <div className="flex flex-col min-h-screen bg-black text-gold font-sans">
+      {/* Header */}
+      <header className="py-8 text-center">
+        <Image 
+          src="/logo.png" 
+          alt="Seyi's Signature Furniture Logo" 
+          width={120} 
+          height={120} 
+          className="mx-auto mb-4"
+        />
+        <h1 className="text-4xl font-bold text-yellow-500">Seyi's Signature Furniture</h1>
+        <p className="text-lg italic text-yellow-400">
+          Distinct Designs. Crafted to Perfection.
+        </p>
+      </header>
+      {/* ...rest of your sections */}
+    </div>
+  );
+}
