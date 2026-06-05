@@ -1,4 +1,6 @@
-export default function Home() {
+export default function Home() 
+import Image from "next/image";
+{
   return (
     <div className="flex flex-col min-h-screen bg-black text-gold font-sans">
       {/* Header */}
@@ -45,7 +47,6 @@ export default function Home() {
     </div>
   );
 }
-import Image from "next/image";
  {
   return (
     <div className="flex flex-col min-h-screen bg-black text-gold font-sans">
@@ -63,7 +64,13 @@ import Image from "next/image";
           Distinct Designs. Crafted to Perfection.
         </p>
       </header>
-      {/* ...rest of your sections */}
+     <Image 
+  src="/logo.png" 
+  alt="Seyi's Signature Furniture Logo" 
+  width={120} 
+  height={120} 
+  className="mx-auto mb-4"
+/>
     </div>
   );
 }
